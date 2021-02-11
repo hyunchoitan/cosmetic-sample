@@ -1,0 +1,26 @@
+{
+  "name": "cosmetic-sample",
+  "version": "1.0.0",
+  "description": "Static website for cosmetic brand",
+  "main": "main.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunchoitan/cosmetic-sample.git"
+  },
+  "author": "Hyun Choi <bloarin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyunchoitan/cosmetic-sample/issues"
+  },
+  "homepage": "https://github.com/hyunchoitan/cosmetic-sample#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/register": "^7.12.13",
+    "gulp": "^4.0.2"
+  }
+}
