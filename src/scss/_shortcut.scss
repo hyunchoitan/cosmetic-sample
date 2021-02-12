@@ -1,0 +1,23 @@
+%center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%heading {
+  padding: 0 10%;
+  line-height: 1.2;
+  text-align: center;
+  font-family: "Play Fair";
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+%orangeLink {
+  color: #ff6429;
+  font-weight: 700;
+  &:hover {
+    border-bottom: 1px solid #ff6429;
+  }
+}
